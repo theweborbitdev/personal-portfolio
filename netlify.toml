@@ -1,0 +1,6 @@
+echo '[build]
+  command = "curl --proto '\''=https'\'' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && export PATH=$HOME/.cargo/bin:$PATH && npm install && npm run build"
+
+[build.environment]
+  NODE_VERSION = "16"
+' > netlify.toml
