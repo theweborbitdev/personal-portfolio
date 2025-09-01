@@ -194,8 +194,8 @@ You can deploy this project easily on:
 
 **Ali Ahmad**  
 - 🌐 Portfolio: [your-link-here]  
-- 💼 LinkedIn: [your-link-here]  
-- 📧 Email: [your-email]  
+- 💼 LinkedIn: nkedin.com/in/aliahmad-webdev/  
+- 📧 Email: theweborbit.dev@gmail.com  
 
 ---
 
