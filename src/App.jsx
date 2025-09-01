@@ -38,11 +38,11 @@ const App = () => {
           <Services />
           <About />
           <Numbers />
-          <LatestProjects/>
-          <Testimonials/>
-          <Contact/>
-          <Footer/>
-          <BackToTop/>
+          <LatestProjects />
+          <Testimonials />
+          <Contact />
+          <Footer />
+          <BackToTop />
         </div>
       </Suspense>
     </div>

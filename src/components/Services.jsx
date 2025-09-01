@@ -5,21 +5,21 @@ function Services() {
     {
       id: 1,
       title: 'Web Development',
-      icon: 'https://img.icons8.com/pastel-glyph/64/website--v2.png',
+      icon: 'https://img.icons8.com/color/96/code.png',
       description:
         "I build fast, responsive, and scalable websites tailored to your business needs. From landing pages to full-stack web apps — I turn your ideas into reality.",
     },
     {
       id: 2,
       title: 'Mobile App Development',
-      icon: 'https://img.icons8.com/ios-filled/50/google-pixel6.png',
+      icon: 'https://img.icons8.com/color/96/smartphone-tablet.png',
       description:
         "I develop intuitive and high-performance mobile apps for both Android and iOS. From concept to launch, I deliver seamless user experiences.",
     },
     {
       id: 3,
       title: 'UI/UX Design',
-      icon: 'https://img.icons8.com/ios/50/web.png',
+      icon: 'https://img.icons8.com/color/96/design.png',
       description:
         "I craft clean and user-friendly interface designs that enhance user experience. My focus is on intuitive layouts, accessibility, and visual consistency.",
     },
@@ -45,8 +45,8 @@ function Services() {
           >
             <img
               src={service.icon}
-              alt='service icon'
-              className='w-8 h-8 mb-4'
+              alt={`${service.title} icon`}
+              className='w-16 h-16 mb-6'
             />
             <h5 className='mb-3 text-2xl font-semibold tracking-tight text-primary'>
               {service.title}

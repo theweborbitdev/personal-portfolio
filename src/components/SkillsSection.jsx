@@ -34,19 +34,19 @@ function SkillsSection() {
 
   return (
     <section id='skills'>
-      <div className='bg-black w-full border-b-5 border-y-4 border-primary2 flex flex-wrap justify-center p-2 gap-0 lg:gap-24'>
+      <div className='bg-black w-full py-8 px-4 border-y-4 border-primary2 flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-10 lg:gap-24'>
         {skills.map((skill) => (
           <div key={skill.id} data-aos='zoom-in-up'>
             <figure className='w-20 h-20 flex justify-center items-center rounded-full ml-2 mt-2'>
               <div
                 style={{
-                  backgroundColor: 'rgba(255, 255, 255, 0.7)',
+                  backgroundColor: 'rgba(255, 255, 255, 0.1)',
                   boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
                   width: '100%',
                   height: '100%',
                   borderRadius: '50%',
                   overflow: 'hidden',
-                  border: '1px solid rgba(255, 255, 255, 0.7)',
+                  border: '1px solid white',
                   backdropFilter: 'blur(9px)',
                   WebkitBackdropFilter: 'blur(9px)',
                   display: 'flex',
@@ -54,7 +54,11 @@ function SkillsSection() {
                   justifyContent: 'center',
                 }}
               >
-                <img src={skill.icon} alt='skills icon' className='w-10 h-12 absolute z-10' />
+                <img
+                  src={skill.icon}
+                  alt='skills icon'
+                  className='w-10 h-12 relative z-10'
+                />
               </div>
             </figure>
           </div>

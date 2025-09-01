@@ -4,7 +4,7 @@ function About() {
   // Experience data
   const experience = [
     {
-      id: 1, // ✅ Fixed typo: changed 'di' to 'id'
+      id: 1,
       role: 'Software Engineer',
       company: 'Microsoft',
       date: 'Jan 2025 - Present',
@@ -37,15 +37,15 @@ function About() {
     <section className='mt-9 md:mt-40' id='about'>
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 xl:px-16'>
         {/* Left Side - Education */}
-        <div className='mt-4 md:mt-0 text-left flex flex-col z-10 h-full'>
+        <div>
           <h2
-            className='text-4xl text-gray-950 sm:text-6xl lg:mb-8 font-bold'
+            className='text-4xl flex justify-center text-gray-950 sm:text-6xl lg:mb-8 font-bold'
             data-aos='zoom-in-up'
           >
-            My Education
+            Education
           </h2>
 
-          <div className='flex justify-start'>
+          <div className='flex justify-center'>
             <div
               className='space-y-8 py-8 w-full md:w-4/5'
               data-aos='zoom-in-up'
@@ -55,7 +55,7 @@ function About() {
                   key={element.id}
                   className='flex items-center rounded-xl bg-primary p-5 md:justify-end'
                 >
-                  <div className='w-1/4'>
+                  <div className='w-1/4 '>
                     <img
                       src='https://img.icons8.com/ios-filled/100/ffffff/lawyer.png'
                       alt='education icon'
@@ -81,13 +81,13 @@ function About() {
         {/* Right Side - Experience */}
         <div>
           <h2
-            className='text-4xl text-gray-950 sm:text-6xl lg:mb-8 font-bold'
+            className='text-4xl flex justify-center text-gray-950 sm:text-6xl lg:mb-8 font-bold'
             data-aos='zoom-in-up'
           >
-            My Experience
+            Experience
           </h2>
 
-          <div className='flex justify-start'>
+          <div className='flex justify-center'>
             <div
               className='space-y-8 py-8 w-full md:w-4/5'
               data-aos='zoom-in-up'

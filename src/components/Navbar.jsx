@@ -5,9 +5,9 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const Menu = [
+    { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Services', href: '#services' },
-    { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -23,13 +23,17 @@ function Navbar() {
   return (
     <header className='z-20'>
       <nav className='flex justify-center'>
-        <div className='flex items-center relative bg-white w-[90%] md:w-4/5 p-3 justify-between rounded-3xl'>
-          {/* logo */}
-          <div className='text-3xl font-bold flex'>
+        <div className='flex items-center relative bg-white w-[90%] md:w-4/5 p-4 px-6 justify-between rounded-3xl'>
+
+          {/* ✅ Logo with page reload */}
+          <div
+            className='text-3xl font-bold flex cursor-pointer'
+            onClick={() => window.location.reload()}
+          >
             <img src={logo} alt="Logo" className="w-28 h-18 ml-2" />
           </div>
 
-          {/* Mobile toggle Button */}
+          {/* ✅ Mobile Toggle Button */}
           <div className='md:hidden z-30'>
             <button
               type='button'
@@ -38,8 +42,9 @@ function Navbar() {
             >
               {isMenuOpen ? (
                 <span className='text-5xl'>
+                  {/* 🔁 Black Close Icon */}
                   <img
-                    src='https://img.icons8.com/ios-filled/100/ffffff/delete-sign.png'
+                    src='https://img.icons8.com/ios-filled/100/000000/delete-sign.png'
                     alt='close'
                     width={50}
                     height={50}
@@ -47,8 +52,9 @@ function Navbar() {
                 </span>
               ) : (
                 <span className='text-5xl'>
+                  {/* 🔁 Black Hamburger Menu Icon */}
                   <img
-                    src='https://img.icons8.com/ios-filled/100/ffffff/menu--v6.png'
+                    src='https://img.icons8.com/ios-filled/100/000000/menu--v6.png'
                     alt='menu'
                     width={50}
                     height={50}
@@ -58,7 +64,7 @@ function Navbar() {
             </button>
           </div>
 
-          {/* Responsive Menu */}
+          {/* ✅ Responsive Menu */}
           <div
             className={`${
               isMenuOpen ? 'flex' : 'hidden'
@@ -80,8 +86,9 @@ function Navbar() {
               ))}
             </ul>
 
-            {/* Button visible on both mobile & desktop */}
+            {/* ✅ Let's Talk Button */}
             <button
+              onClick={() => scrollToSection('#contact')}
               className='mt-6 md:mt-0 bg-primary2 font-bold py-2 px-6 border-b-4 border-black rounded-3xl
               hover:text-primary hover:border-primary2 transition-all duration-200'
             >

@@ -1,24 +1,24 @@
-import React from 'react'
+import React from 'react';
 
 function Contact() {
   return (
     <section className='bg-black w-full border-y-4 border-primary2' id='contact'>
-      <div className='grid sm:grid-cols-2 p-8 gap-8'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 px-4 sm:px-12 py-10 gap-8'>
 
         {/* Left side content */}
         <div>
-          <h2 className='text-white text-2xl font-bold mb-4'>Let's Talk</h2>
-          <p className='text-sm text-gray-500 mb-8'>
+          <h2 className='text-primary2 text-2xl font-bold mb-4 sm:ml-14'>Let's Talk</h2>
+          <p className='text-sm text-white mb-8 sm:ml-14'>
             I develop intuitive and high-performance mobile apps for both Android and iOS. From concept to launch, I deliver seamless user experiences.
           </p>
 
           {/* Email */}
-          <div className='mb-8'>
-            <h3 className='text-white text-base font-bold mb-2'>Email</h3>
+          <div className='mb-8 sm:ml-14'>
+            <h3 className='text-primary2 text-base font-bold mb-2'>Email</h3>
             <ul>
               <li className='flex items-center'>
-                <div className='bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0'>
-                  <img src="https://img.icons8.com/ios-filled/24/new-post.png" alt="new-post" width={24} height={24} />
+                <div className='bg-gray-400 h-10 w-10 rounded-full flex items-center justify-center shrink-0'>
+                  <img src="https://img.icons8.com/ios-filled/24/new-post.png" alt="new-post" />
                 </div>
                 <a href="mailto:theweborbit.dev@gmail.com" className='text-white text-sm ml-4'>
                   <small className='block'>Mail</small>
@@ -29,20 +29,20 @@ function Contact() {
           </div>
 
           {/* Socials */}
-          <div>
-            <h3 className='text-white text-base font-bold mb-2'>Socials</h3>
+          <div className='sm:ml-14'>
+            <h3 className='text-primary2 text-base font-bold mb-2'>Socials</h3>
             <ul className='flex space-x-4 mt-2'>
-              <li className='bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center'>
+              <li className='bg-gray-400 h-10 w-10 rounded-full flex items-center justify-center'>
                 <a href="#">
                   <img src="https://img.icons8.com/material/24/facebook-f.png" alt="facebook" />
                 </a>
               </li>
-              <li className='bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center'>
+              <li className='bg-gray-400 h-10 w-10 rounded-full flex items-center justify-center'>
                 <a href="#">
                   <img src="https://img.icons8.com/ios-filled/24/linkedin-2--v1.png" alt="linkedin" />
                 </a>
               </li>
-              <li className='bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center'>
+              <li className='bg-gray-400 h-10 w-10 rounded-full flex items-center justify-center'>
                 <a href="#">
                   <img src="https://img.icons8.com/ios-filled/24/instagram-new--v1.png" alt="instagram" />
                 </a>
@@ -52,7 +52,7 @@ function Contact() {
         </div>
 
         {/* Right side: Contact Form */}
-        <form className='space-y-4' data-aos='zoom-in-down'>
+        <form className='space-y-4 w-full' data-aos='zoom-in-down'>
           <input
             type="text"
             placeholder='Name'
@@ -78,10 +78,9 @@ function Contact() {
             Send
           </button>
         </form>
-
       </div>
     </section>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
