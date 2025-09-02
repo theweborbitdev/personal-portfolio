@@ -7,6 +7,9 @@ function About() {
       id: 1,
       role: 'Software Engineer',
       company: 'DeveloperCorner',
+
+      company: 'Microsoft',
+
       date: 'Jan 2025 - Present',
     },
     {
