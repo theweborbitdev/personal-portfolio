@@ -32,42 +32,35 @@ function Contact() {
           <div className='sm:ml-14'>
             <h3 className='text-primary2 text-base font-bold mb-2'>Socials</h3>
             <ul className='flex space-x-4 mt-2'>
+              {/* Facebook */}
               <li className='bg-gray-400 h-10 w-10 rounded-full flex items-center justify-center'>
-<<<<<<< HEAD
                 <a 
                   href="https://www.facebook.com/share/1BF3KSum55/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-=======
-                <a href="#">
->>>>>>> f6829f599c7bd44152a9911a61e7045675391e67
                   <img src="https://img.icons8.com/material/24/facebook-f.png" alt="facebook" />
                 </a>
               </li>
+
+              {/* LinkedIn */}
               <li className='bg-gray-400 h-10 w-10 rounded-full flex items-center justify-center'>
-<<<<<<< HEAD
                 <a 
                   href="https://www.linkedin.com/in/aliahmad-webdev/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-=======
-                <a href="#">
->>>>>>> f6829f599c7bd44152a9911a61e7045675391e67
                   <img src="https://img.icons8.com/ios-filled/24/linkedin-2--v1.png" alt="linkedin" />
                 </a>
               </li>
+
+              {/* Instagram */}
               <li className='bg-gray-400 h-10 w-10 rounded-full flex items-center justify-center'>
-<<<<<<< HEAD
                 <a 
                   href="https://www.instagram.com/aliahmadabbas88?igsh=cngzaXF2eTkzeTd0" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-=======
-                <a href="#">
->>>>>>> f6829f599c7bd44152a9911a61e7045675391e67
                   <img src="https://img.icons8.com/ios-filled/24/instagram-new--v1.png" alt="instagram" />
                 </a>
               </li>
