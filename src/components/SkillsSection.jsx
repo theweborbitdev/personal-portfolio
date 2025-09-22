@@ -1,35 +1,13 @@
-import React from 'react';
-
 function SkillsSection() {
   const skills = [
-    {
-      id: 1,
-      icon: 'https://img.icons8.com/fluency/48/html-5.png',
-    },
-    {
-      id: 2,
-      icon: 'https://img.icons8.com/color/48/javascript--v1.png',
-    },
-    {
-      id: 3,
-      icon: 'https://img.icons8.com/plasticine/100/087ea4/react.png',
-    },
-    {
-      id: 4,
-      icon: 'https://img.icons8.com/color/48/tailwindcss.png',
-    },
-    {
-      id: 5,
-      icon: 'https://img.icons8.com/fluency/48/figma.png',
-    },
-    {
-      id: 6,
-      icon: 'https://img.icons8.com/fluency/48/angularjs.png',
-    },
-    {
-      id: 7,
-      icon: 'https://img.icons8.com/fluency/48/vuejs.png',
-    },
+    { id: 1, icon: 'https://img.icons8.com/fluency/48/html-5.png' },
+    { id: 2, icon: 'https://img.icons8.com/color/48/css3.png' },
+    { id: 3, icon: 'https://img.icons8.com/color/48/javascript--v1.png' },
+    { id: 4, icon: 'https://img.icons8.com/plasticine/100/087ea4/react.png' },
+    { id: 5, icon: 'https://img.icons8.com/color/48/nodejs.png' },
+    { id: 6, icon: 'https://img.icons8.com/color/48/express-js.png' },
+    { id: 7, icon: 'https://img.icons8.com/color/48/mongodb.png' },
+    { id: 8, icon: 'https://img.icons8.com/color/48/tailwindcss.png' },
   ];
 
   return (
@@ -67,5 +45,3 @@ function SkillsSection() {
     </section>
   );
 }
-
-export default SkillsSection;
