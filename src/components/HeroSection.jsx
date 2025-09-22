@@ -20,11 +20,7 @@ function HeroSection() {
               Hi, I'm Full Stack Developer
             </h1>
             <p className="mt-8 max-w-lg text-lg sm:text-xl leading-7 font-medium text-gray-100">
-<<<<<<< HEAD
               I'm a passionate Web Developer specializing in creating responsive, user-friendly websites. I turn ideas into interactive digital experiences using modern web technologies.
-=======
-              "I'm a passionate Web Developer specializing in creating responsive, user-friendly websites. I turn ideas into interactive digital experiences using modern web technologies."
->>>>>>> f6829f599c7bd44152a9911a61e7045675391e67
             </p>
 
             {/* Buttons */}
@@ -37,8 +33,7 @@ function HeroSection() {
                 HIRE ME
               </button>
 
-              <button className="md:block w-48 bg-primary p-3 font-bold border border-b-4 border-black
-                rounded-full text-white">
+              <button className="md:block w-48 bg-primary p-3 font-bold border border-b-4 border-black rounded-full text-white">
                 <a
                   href="/resume.pdf"
                   download="resume.pdf"
