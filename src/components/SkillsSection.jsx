@@ -1,12 +1,13 @@
+import React from 'react';
 function SkillsSection() {
   const skills = [
     { id: 1, icon: 'https://img.icons8.com/fluency/48/html-5.png' },
-    { id: 2, icon: 'https://img.icons8.com/color/48/css3.png' },
+    { id: 2, icon: 'https://icons8.com/icon/21278/css3' },
     { id: 3, icon: 'https://img.icons8.com/color/48/javascript--v1.png' },
     { id: 4, icon: 'https://img.icons8.com/plasticine/100/087ea4/react.png' },
-    { id: 5, icon: 'https://img.icons8.com/color/48/nodejs.png' },
-    { id: 6, icon: 'https://img.icons8.com/color/48/express-js.png' },
-    { id: 7, icon: 'https://img.icons8.com/color/48/mongodb.png' },
+    { id: 5, icon: 'https://icons8.com/icon/hsPbhkOH4FMe/node-js' },
+    { id: 6, icon: 'https://icons8.com/icon/kg46nzoJrmTR/express-js' },
+    { id: 7, icon: 'https://icons8.com/icon/74402/mongodb' },
     { id: 8, icon: 'https://img.icons8.com/color/48/tailwindcss.png' },
   ];
 
