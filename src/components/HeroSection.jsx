@@ -35,7 +35,7 @@ function HeroSection() {
 
               <button className="md:block w-48 bg-primary p-3 font-bold border border-b-4 border-black rounded-full text-white">
                 <a
-                  href="/resume.pdf"
+                  href="/https://aliahmad-digital-cv.netlify.app/"
                   download="resume.pdf"
                   className="flex items-center h-8 justify-center gap-2 hover:scale-105 transition-all ease-in-out"
                 >
